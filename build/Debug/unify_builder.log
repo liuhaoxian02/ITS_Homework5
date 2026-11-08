@@ -1,0 +1,1202 @@
+[2026-09-01 22:30:31]	[info] incremental build: 19 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\gpio.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Core\Src\main.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Core\Src\stm32f1xx_hal_msp.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Core\Src\stm32f1xx_it.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Core\Src\syscalls.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Core\Src\sysmem.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Core\Src\system_stm32f1xx.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\startup_stm32f103xb.s': object (.o) file not exist
+
+[2026-09-01 22:30:32]	compilation failed at : "d:\embedded2\stm32project\its\Core\Src\stm32f1xx_hal_msp.c", exit code: 1
+command: 
+  "D:\embedded2\environment\Arm-gnu-toolchain\14.3 rel1\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -D"USE_HAL_DRIVER" -D"STM32F103xB" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Core/Src/stm32f1xx_hal_msp.o -MMD ./Core/Src/stm32f1xx_hal_msp.c
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/gpio.c:22:10: fatal error: gpio.h: No such file or directory
+   22 | #include "gpio.h"
+      |          ^~~~~~~~
+compilation terminated.
+./Core/Src/stm32f1xx_it.c:21:10: fatal error: main.h: No such file or directory
+   21 | #include "main.h"
+      |          ^~~~~~~~
+compilation terminated.
+./Core/Src/main.c:20:10: fatal error: main.h: No such file or directory
+   20 | #include "main.h"
+      |          ^~~~~~~~
+compilation terminated.
+./Core/Src/stm32f1xx_hal_msp.c:21:10: fatal error: main.h: No such file or directory
+   21 | #include "main.h"
+      |          ^~~~~~~~
+compilation terminated.
+
+[2026-09-01 22:34:58]	[info] incremental build: 17 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\gpio.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Core\Src\main.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Core\Src\stm32f1xx_hal_msp.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Core\Src\stm32f1xx_it.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Core\Src\system_stm32f1xx.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\startup_stm32f103xb.s': object (.o) file not exist
+
+[2026-09-01 22:34:58]	compilation failed at : "d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c", exit code: 1
+command: 
+  "D:\embedded2\environment\Arm-gnu-toolchain\14.3 rel1\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -D"USE_HAL_DRIVER" -D"STM32F103xB" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o -MMD ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c:20:10: fatal error: main.h: No such file or directory
+   20 | #include "main.h"
+      |          ^~~~~~~~
+compilation terminated.
+./Core/Src/gpio.c:22:10: fatal error: gpio.h: No such file or directory
+   22 | #include "gpio.h"
+      |          ^~~~~~~~
+compilation terminated.
+./Core/Src/stm32f1xx_hal_msp.c:21:10: fatal error: main.h: No such file or directory
+   21 | #include "main.h"
+      |          ^~~~~~~~
+compilation terminated.
+./Core/Src/stm32f1xx_it.c:21:10: fatal error: main.h: No such file or directory
+   21 | #include "main.h"
+      |          ^~~~~~~~
+compilation terminated.
+./Core/Src/system_stm32f1xx.c:58:10: fatal error: stm32f1xx.h: No such file or directory
+   58 | #include "stm32f1xx.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c:36:10: fatal error: stm32f1xx_hal.h: No such file or directory
+   36 | #include "stm32f1xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+
+[2026-09-01 22:50:23]	[info] incremental build: 19 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\gpio.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Core\Src\main.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Core\Src\stm32f1xx_hal_msp.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Core\Src\stm32f1xx_it.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Core\Src\syscalls.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Core\Src\sysmem.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Core\Src\system_stm32f1xx.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c': object (.o) file not exist
+'d:\embedded2\stm32project\its\startup_stm32f103xb.s': object (.o) file not exist
+
+[2026-09-01 22:50:23]	compilation failed at : "d:\embedded2\stm32project\its\startup_stm32f103xb.s", exit code: 1
+command: 
+  "D:\Program Files (x86)\Arm_GNU_Toolchain_arm-none-eabi\14.3 rel1\bin\arm-none-eabi-gcc.exe" -c -x assembler-with-cpp -ICore/Src -ICore/Inc -IDrivers/STM32F1xx_HAL_Driver/Src -IDrivers/STM32F1xx_HAL_Driver/Inc -IDrivers/STM32F1xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F1xx/Include -mcpu=cortex-m3 -mthumb -g --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/startup_stm32f103xb.o -MMD ./startup_stm32f103xb.s
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+./startup_stm32f103xb.s: Assembler messages:
+./startup_stm32f103xb.s:1: Error: junk at end of line, first unrecognized character is `-'
+./startup_stm32f103xb.s:2: Error: bad size 0 in type specifier
+./startup_stm32f103xb.s:2: Error: bad instruction `startup_stm32f103xb.s'
+
+[2026-09-01 22:50:36]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\startup_stm32f103xb.s': object (.o) file not exist
+
+[2026-09-01 22:50:36]	compilation failed at : "d:\embedded2\stm32project\its\startup_stm32f103xb.s", exit code: 1
+command: 
+  "D:\Program Files (x86)\Arm_GNU_Toolchain_arm-none-eabi\14.3 rel1\bin\arm-none-eabi-gcc.exe" -c -x assembler-with-cpp -ICore/Src -ICore/Inc -IDrivers/STM32F1xx_HAL_Driver/Src -IDrivers/STM32F1xx_HAL_Driver/Inc -IDrivers/STM32F1xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F1xx/Include -mcpu=cortex-m3 -mthumb -g --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/startup_stm32f103xb.o -MMD ./startup_stm32f103xb.s
+   at unify_builder.Program.Main(String[] args_)
+---
+./startup_stm32f103xb.s: Assembler messages:
+./startup_stm32f103xb.s:1: Error: junk at end of line, first unrecognized character is `-'
+./startup_stm32f103xb.s:2: Error: bad size 0 in type specifier
+./startup_stm32f103xb.s:2: Error: bad instruction `startup_stm32f103xb.s'
+
+[2026-09-01 22:51:18]	[info] incremental build: 19 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\gpio.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Core\Src\main.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Core\Src\stm32f1xx_hal_msp.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Core\Src\stm32f1xx_it.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Core\Src\syscalls.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Core\Src\sysmem.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Core\Src\system_stm32f1xx.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\startup_stm32f103xb.s': object (.o) file not exist
+
+[2026-09-01 22:51:19]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+D:/Program Files (x86)/Arm_GNU_Toolchain_arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe:d:/embedded2/stm32project/its/startup_stm32f103xb.s:28: syntax error
+collect2.exe: error: ld returned 1 exit status
+
+
+[2026-09-01 22:51:42]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+D:/Program Files (x86)/Arm_GNU_Toolchain_arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe:d:/embedded2/stm32project/its/startup_stm32f103xb.s:28: syntax error
+collect2.exe: error: ld returned 1 exit status
+
+
+[2026-09-01 22:54:45]	[done]
+	build successfully !
+
+[2026-09-01 22:55:55]	[done]
+	build successfully !
+
+[2026-09-01 22:56:57]	[info] incremental build: 19 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\gpio.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Core\Src\main.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Core\Src\stm32f1xx_hal_msp.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Core\Src\stm32f1xx_it.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Core\Src\syscalls.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Core\Src\sysmem.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Core\Src\system_stm32f1xx.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\startup_stm32f103xb.s': compiler options has been changed.
+
+[2026-09-01 22:56:58]	[done]
+	build successfully !
+
+[2026-09-01 22:58:49]	[done]
+	build successfully !
+
+[2026-09-21 00:19:58]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-21 00:19:59]	[done]
+	build successfully !
+
+[2026-09-21 00:21:32]	[done]
+	build successfully !
+
+[2026-09-21 00:29:58]	[done]
+	build successfully !
+
+[2026-09-21 19:18:35]	[done]
+	build successfully !
+
+[2026-09-21 21:24:02]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-21 21:24:04]	[done]
+	build successfully !
+
+[2026-09-21 21:25:16]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-21 21:25:16]	[done]
+	build successfully !
+
+[2026-09-21 21:25:44]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-21 21:25:45]	[done]
+	build successfully !
+
+[2026-09-21 21:26:08]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-21 21:26:09]	[done]
+	build successfully !
+
+[2026-09-21 21:27:16]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-21 21:27:16]	[done]
+	build successfully !
+
+[2026-09-21 21:28:08]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-21 21:28:08]	[done]
+	build successfully !
+
+[2026-09-21 21:29:53]	[done]
+	build successfully !
+
+[2026-09-21 21:30:03]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-21 21:30:04]	[done]
+	build successfully !
+
+[2026-09-21 21:33:18]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-21 21:33:18]	compilation failed at : "d:\embedded2\stm32project\its\Core\Src\main.c", exit code: 1
+command: 
+  "D:\Program Files (x86)\Arm_GNU_Toolchain_arm-none-eabi\14.3 rel1\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -ICore/Src -ICore/Inc -IDrivers/STM32F1xx_HAL_Driver/Src -IDrivers/STM32F1xx_HAL_Driver/Inc -IDrivers/STM32F1xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F1xx/Include -D"USE_HAL_DRIVER" -D"STM32F103xB" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Core/Src/main.o -MMD ./Core/Src/main.c
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:90:27: error: 'GPIO_Pin_13' undeclared (first use in this function); did you mean 'GPIO_PIN_13'?
+   90 |   HAL_GPIO_WritePin(GPIOC,GPIO_Pin_13,GPIO_PIN_SET);
+      |                           ^~~~~~~~~~~
+      |                           GPIO_PIN_13
+./Core/Src/main.c:90:27: note: each undeclared identifier is reported only once for each function it appears in
+
+[2026-09-21 21:33:48]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-21 21:33:49]	[done]
+	build successfully !
+
+[2026-09-21 21:34:16]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-21 21:34:16]	[done]
+	build successfully !
+
+[2026-09-21 21:35:01]	[done]
+	build successfully !
+
+[2026-09-21 21:35:19]	[done]
+	build successfully !
+
+[2026-09-21 21:36:40]	[done]
+	build successfully !
+
+[2026-09-21 21:37:12]	[done]
+	build successfully !
+
+[2026-09-21 21:39:13]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-21 21:39:15]	[done]
+	build successfully !
+
+[2026-09-21 21:39:53]	[done]
+	build successfully !
+
+[2026-09-21 21:40:24]	[info] incremental build: 19 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\gpio.c': source file has been changed.
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+'d:\embedded2\stm32project\its\Core\Src\stm32f1xx_hal_msp.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Core\Src\stm32f1xx_it.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Core\Src\syscalls.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Core\Src\sysmem.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Core\Src\system_stm32f1xx.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\its\startup_stm32f103xb.s': compiler options has been changed.
+
+[2026-09-21 21:40:25]	[done]
+	build successfully !
+
+[2026-09-21 21:41:20]	[done]
+	build successfully !
+
+[2026-09-21 21:41:38]	[done]
+	build successfully !
+
+[2026-09-21 21:46:26]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-21 21:46:27]	compilation failed at : "d:\embedded2\stm32project\its\Core\Src\main.c", exit code: 1
+command: 
+  "D:\Program Files (x86)\Arm_GNU_Toolchain_arm-none-eabi\14.3 rel1\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -ICore/Inc -ICore/Src -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F1xx/Include -IDrivers/STM32F1xx_HAL_Driver/Src -IDrivers/STM32F1xx_HAL_Driver/Inc -IDrivers/STM32F1xx_HAL_Driver/Inc/Legacy -D"USE_HAL_DRIVER" -D"STM32F103xB" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Core/Src/main.o -MMD ./Core/Src/main.c
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:92:28: error: 'GPIO_Pin_13' undeclared (first use in this function); did you mean 'GPIO_PIN_13'?
+   92 |   HAL_GPIO_TogglePin(GPIOC,GPIO_Pin_13);
+      |                            ^~~~~~~~~~~
+      |                            GPIO_PIN_13
+./Core/Src/main.c:92:28: note: each undeclared identifier is reported only once for each function it appears in
+
+[2026-09-21 21:46:35]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-21 21:46:35]	compilation failed at : "d:\embedded2\stm32project\its\Core\Src\main.c", exit code: 1
+command: 
+  "D:\Program Files (x86)\Arm_GNU_Toolchain_arm-none-eabi\14.3 rel1\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -ICore/Inc -ICore/Src -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F1xx/Include -IDrivers/STM32F1xx_HAL_Driver/Src -IDrivers/STM32F1xx_HAL_Driver/Inc -IDrivers/STM32F1xx_HAL_Driver/Inc/Legacy -D"USE_HAL_DRIVER" -D"STM32F103xB" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Core/Src/main.o -MMD ./Core/Src/main.c
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:94:28: error: 'GPIO_Pin_13' undeclared (first use in this function); did you mean 'GPIO_PIN_13'?
+   94 |   HAL_GPIO_TogglePin(GPIOC,GPIO_Pin_13);
+      |                            ^~~~~~~~~~~
+      |                            GPIO_PIN_13
+./Core/Src/main.c:94:28: note: each undeclared identifier is reported only once for each function it appears in
+
+[2026-09-21 21:46:45]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-21 21:46:46]	[done]
+	build successfully !
+
+[2026-09-21 21:47:36]	[done]
+	build successfully !
+
+[2026-09-21 21:48:23]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-21 21:48:24]	[done]
+	build successfully !
+
+[2026-09-21 21:50:47]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-21 21:50:48]	[done]
+	build successfully !
+
+[2026-09-21 21:56:14]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-21 21:56:14]	[done]
+	build successfully !
+
+[2026-09-21 22:01:54]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\gpio.c': source file has been changed.
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-21 22:01:55]	[done]
+	build successfully !
+
+[2026-09-28 21:35:54]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\gpio.c': source file has been changed.
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-28 21:35:55]	compilation failed at : "d:\embedded2\stm32project\its\Core\Src\main.c", exit code: 1
+command: 
+  "D:\Program Files (x86)\Arm_GNU_Toolchain_arm-none-eabi\14.3 rel1\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -ICore/Inc -ICore/Src -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F1xx/Include -IDrivers/STM32F1xx_HAL_Driver/Src -IDrivers/STM32F1xx_HAL_Driver/Inc -IDrivers/STM32F1xx_HAL_Driver/Inc/Legacy -D"USE_HAL_DRIVER" -D"STM32F103xB" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Core/Src/main.o -MMD ./Core/Src/main.c
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:98:23: error: 'ENA_GPIO_Port' undeclared (first use in this function)
+   98 |     HAL_GPIO_WritePin(ENA_GPIO_Port, ENA_PiN, GPIO_PIN_RESET);
+      |                       ^~~~~~~~~~~~~
+./Core/Src/main.c:98:23: note: each undeclared identifier is reported only once for each function it appears in
+./Core/Src/main.c:98:38: error: 'ENA_PiN' undeclared (first use in this function)
+   98 |     HAL_GPIO_WritePin(ENA_GPIO_Port, ENA_PiN, GPIO_PIN_RESET);
+      |                                      ^~~~~~~
+./Core/Src/main.c:99:23: error: 'DIR_GPIO_Port' undeclared (first use in this function); did you mean 'IS_GPIO_PIN'?
+   99 |     HAL_GPIO_WritePin(DIR_GPIO_Port, DIR_PiN, GPIO_PIN_RESET);
+      |                       ^~~~~~~~~~~~~
+      |                       IS_GPIO_PIN
+./Core/Src/main.c:99:38: error: 'DIR_PiN' undeclared (first use in this function)
+   99 |     HAL_GPIO_WritePin(DIR_GPIO_Port, DIR_PiN, GPIO_PIN_RESET);
+      |                                      ^~~~~~~
+./Core/Src/main.c:101:32: error: expected ')' before numeric constant
+  101 |     for(int i = 0;i <= 800; i++0){
+      |        ~                       ^
+      |                                )
+./Core/Src/main.c:102:25: error: 'PUL_GPIO_Port' undeclared (first use in this function)
+  102 |       HAL_GPIO_WritePin(PUL_GPIO_Port, PUL_PiN, GPIO_PIN_SET);
+      |                         ^~~~~~~~~~~~~
+./Core/Src/main.c:102:40: error: 'PUL_PiN' undeclared (first use in this function)
+  102 |       HAL_GPIO_WritePin(PUL_GPIO_Port, PUL_PiN, GPIO_PIN_SET);
+      |                                        ^~~~~~~
+./Core/Src/main.c:103:7: error: implicit declaration of function 'Delay' [-Wimplicit-function-declaration]
+  103 |       Delay(1);
+      |       ^~~~~
+
+[2026-09-28 21:36:32]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-28 21:36:32]	compilation failed at : "d:\embedded2\stm32project\its\Core\Src\main.c", exit code: 1
+command: 
+  "D:\Program Files (x86)\Arm_GNU_Toolchain_arm-none-eabi\14.3 rel1\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -ICore/Inc -ICore/Src -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F1xx/Include -IDrivers/STM32F1xx_HAL_Driver/Src -IDrivers/STM32F1xx_HAL_Driver/Inc -IDrivers/STM32F1xx_HAL_Driver/Inc/Legacy -D"USE_HAL_DRIVER" -D"STM32F103xB" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Core/Src/main.o -MMD ./Core/Src/main.c
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:98:23: error: 'ENA_GPIO_Port' undeclared (first use in this function)
+   98 |     HAL_GPIO_WritePin(ENA_GPIO_Port, ENA_PiN, GPIO_PIN_RESET);
+      |                       ^~~~~~~~~~~~~
+./Core/Src/main.c:98:23: note: each undeclared identifier is reported only once for each function it appears in
+./Core/Src/main.c:98:38: error: 'ENA_PiN' undeclared (first use in this function)
+   98 |     HAL_GPIO_WritePin(ENA_GPIO_Port, ENA_PiN, GPIO_PIN_RESET);
+      |                                      ^~~~~~~
+./Core/Src/main.c:99:23: error: 'DIR_GPIO_Port' undeclared (first use in this function); did you mean 'IS_GPIO_PIN'?
+   99 |     HAL_GPIO_WritePin(DIR_GPIO_Port, DIR_PiN, GPIO_PIN_RESET);
+      |                       ^~~~~~~~~~~~~
+      |                       IS_GPIO_PIN
+./Core/Src/main.c:99:38: error: 'DIR_PiN' undeclared (first use in this function)
+   99 |     HAL_GPIO_WritePin(DIR_GPIO_Port, DIR_PiN, GPIO_PIN_RESET);
+      |                                      ^~~~~~~
+./Core/Src/main.c:102:25: error: 'PUL_GPIO_Port' undeclared (first use in this function)
+  102 |       HAL_GPIO_WritePin(PUL_GPIO_Port, PUL_PiN, GPIO_PIN_SET);
+      |                         ^~~~~~~~~~~~~
+./Core/Src/main.c:102:40: error: 'PUL_PiN' undeclared (first use in this function)
+  102 |       HAL_GPIO_WritePin(PUL_GPIO_Port, PUL_PiN, GPIO_PIN_SET);
+      |                                        ^~~~~~~
+./Core/Src/main.c:103:7: error: implicit declaration of function 'Delay' [-Wimplicit-function-declaration]
+  103 |       Delay(1);
+      |       ^~~~~
+
+[2026-09-28 21:37:27]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-28 21:37:27]	compilation failed at : "d:\embedded2\stm32project\its\Core\Src\main.c", exit code: 1
+command: 
+  "D:\Program Files (x86)\Arm_GNU_Toolchain_arm-none-eabi\14.3 rel1\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -ICore/Inc -ICore/Src -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F1xx/Include -IDrivers/STM32F1xx_HAL_Driver/Src -IDrivers/STM32F1xx_HAL_Driver/Inc -IDrivers/STM32F1xx_HAL_Driver/Inc/Legacy -D"USE_HAL_DRIVER" -D"STM32F103xB" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Core/Src/main.o -MMD ./Core/Src/main.c
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:98:23: error: 'ENA_GPIO_Port' undeclared (first use in this function)
+   98 |     HAL_GPIO_WritePin(ENA_GPIO_Port, ENA_PiN, GPIO_PIN_RESET);
+      |                       ^~~~~~~~~~~~~
+./Core/Src/main.c:98:23: note: each undeclared identifier is reported only once for each function it appears in
+./Core/Src/main.c:98:38: error: 'ENA_PiN' undeclared (first use in this function)
+   98 |     HAL_GPIO_WritePin(ENA_GPIO_Port, ENA_PiN, GPIO_PIN_RESET);
+      |                                      ^~~~~~~
+./Core/Src/main.c:99:23: error: 'DIR_GPIO_Port' undeclared (first use in this function); did you mean 'IS_GPIO_PIN'?
+   99 |     HAL_GPIO_WritePin(DIR_GPIO_Port, DIR_PiN, GPIO_PIN_RESET);
+      |                       ^~~~~~~~~~~~~
+      |                       IS_GPIO_PIN
+./Core/Src/main.c:99:38: error: 'DIR_PiN' undeclared (first use in this function)
+   99 |     HAL_GPIO_WritePin(DIR_GPIO_Port, DIR_PiN, GPIO_PIN_RESET);
+      |                                      ^~~~~~~
+./Core/Src/main.c:102:25: error: 'PUL_GPIO_Port' undeclared (first use in this function)
+  102 |       HAL_GPIO_WritePin(PUL_GPIO_Port, PUL_PiN, GPIO_PIN_SET);
+      |                         ^~~~~~~~~~~~~
+./Core/Src/main.c:102:40: error: 'PUL_PiN' undeclared (first use in this function)
+  102 |       HAL_GPIO_WritePin(PUL_GPIO_Port, PUL_PiN, GPIO_PIN_SET);
+      |                                        ^~~~~~~
+
+[2026-09-28 21:40:07]	[info] incremental build: 4 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\gpio.c': source file has been changed.
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+'d:\embedded2\stm32project\its\Core\Src\stm32f1xx_hal_msp.c': dependence 'd:\embedded2\stm32project\its\Core\Inc\main.h' has been changed.
+'d:\embedded2\stm32project\its\Core\Src\stm32f1xx_it.c': dependence 'd:\embedded2\stm32project\its\Core\Inc\main.h' has been changed.
+
+[2026-09-28 21:40:08]	[done]
+	build successfully !
+
+[2026-09-28 21:42:43]	[done]
+	build successfully !
+
+[2026-09-28 21:51:23]	[info] incremental build: 4 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\gpio.c': source file has been changed.
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+'d:\embedded2\stm32project\its\Core\Src\stm32f1xx_hal_msp.c': dependence 'd:\embedded2\stm32project\its\Core\Inc\main.h' has been changed.
+'d:\embedded2\stm32project\its\Core\Src\stm32f1xx_it.c': dependence 'd:\embedded2\stm32project\its\Core\Inc\main.h' has been changed.
+
+[2026-09-28 21:51:24]	[done]
+	build successfully !
+
+[2026-09-28 21:52:28]	[info] incremental build: 4 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\gpio.c': source file has been changed.
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+'d:\embedded2\stm32project\its\Core\Src\stm32f1xx_hal_msp.c': dependence 'd:\embedded2\stm32project\its\Core\Inc\main.h' has been changed.
+'d:\embedded2\stm32project\its\Core\Src\stm32f1xx_it.c': dependence 'd:\embedded2\stm32project\its\Core\Inc\main.h' has been changed.
+
+[2026-09-28 21:52:29]	[done]
+	build successfully !
+
+[2026-09-28 21:52:45]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-28 21:52:45]	[done]
+	build successfully !
+
+[2026-09-28 21:55:05]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-28 21:55:06]	[done]
+	build successfully !
+
+[2026-09-28 21:56:18]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-28 21:56:18]	[done]
+	build successfully !
+
+[2026-09-28 22:01:05]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-28 22:01:06]	[done]
+	build successfully !
+
+[2026-09-28 22:01:10]	[done]
+	build successfully !
+
+[2026-09-28 22:11:04]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-28 22:11:04]	[done]
+	build successfully !
+
+[2026-09-28 22:12:11]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-28 22:12:11]	[done]
+	build successfully !
+
+[2026-09-28 22:14:40]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-28 22:14:40]	[done]
+	build successfully !
+
+[2026-09-28 22:16:53]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\its\Core\Src\main.c': source file has been changed.
+
+[2026-09-28 22:16:53]	[done]
+	build successfully !
+
+[2026-10-11 11:01:50]	[info] incremental build: 20 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\4\its\Core\Src\gpio.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Core\Src\main.c': source file has been changed.
+'d:\embedded2\stm32project\4\its\Core\Src\stm32f1xx_hal_msp.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Core\Src\stm32f1xx_it.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Core\Src\syscalls.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Core\Src\sysmem.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Core\Src\system_stm32f1xx.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Core\User\Stepper_Servo.c': object (.o) file not exist
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\startup_stm32f103xb.s': compiler options has been changed.
+
+[2026-10-11 11:01:51]	[done]
+	build successfully !
+
+[2026-10-11 11:02:20]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\4\its\Core\Src\main.c': source file has been changed.
+
+[2026-10-11 11:02:21]	[done]
+	build successfully !
+
+[2026-10-11 11:05:08]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\4\its\Core\Src\main.c': source file has been changed.
+
+[2026-10-11 11:05:08]	[done]
+	build successfully !
+
+[2026-10-11 11:06:15]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\4\its\Core\Src\main.c': dependence 'd:\embedded2\stm32project\4\its\Core\User\Stepper_Servo.h' has been changed.
+'d:\embedded2\stm32project\4\its\Core\User\Stepper_Servo.c': dependence 'd:\embedded2\stm32project\4\its\Core\User\Stepper_Servo.h' has been changed.
+
+[2026-10-11 11:06:15]	[done]
+	build successfully !
+
+[2026-10-17 21:52:54]	[info] incremental build: 23 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\4\its\Core\Src\gpio.c': source file has been changed.
+'d:\embedded2\stm32project\4\its\Core\Src\main.c': source file has been changed.
+'d:\embedded2\stm32project\4\its\Core\Src\stm32f1xx_hal_msp.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Core\Src\stm32f1xx_it.c': source file has been changed.
+'d:\embedded2\stm32project\4\its\Core\Src\syscalls.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Core\Src\sysmem.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Core\Src\system_stm32f1xx.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Core\Src\tim.c': object (.o) file not exist
+'d:\embedded2\stm32project\4\its\Core\User\Stepper_Servo.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c': object (.o) file not exist
+'d:\embedded2\stm32project\4\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c': object (.o) file not exist
+'d:\embedded2\stm32project\4\its\startup_stm32f103xb.s': compiler options has been changed.
+
+[2026-10-17 21:52:57]	[done]
+	build successfully !
+
+[2026-10-17 21:53:39]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\4\its\Core\Src\main.c': source file has been changed.
+
+[2026-10-17 21:53:39]	[done]
+	build successfully !
+
+[2026-10-17 21:54:37]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\4\its\Core\Src\main.c': source file has been changed.
+
+[2026-10-17 21:54:38]	[done]
+	build successfully !
+
+[2026-10-17 21:55:44]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\4\its\Core\Src\main.c': source file has been changed.
+
+[2026-10-17 21:55:45]	[done]
+	build successfully !
+
+[2026-10-17 21:56:05]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\4\its\Core\Src\main.c': source file has been changed.
+
+[2026-10-17 21:56:05]	[done]
+	build successfully !
+
+[2026-10-17 21:56:19]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\4\its\Core\Src\main.c': source file has been changed.
+
+[2026-10-17 21:56:20]	[done]
+	build successfully !
+
+[2026-10-17 21:56:48]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\4\its\Core\Src\main.c': source file has been changed.
+
+[2026-10-17 21:56:49]	[done]
+	build successfully !
+
+[2026-10-17 21:57:16]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\4\its\Core\Src\main.c': source file has been changed.
+
+[2026-10-17 21:57:17]	[done]
+	build successfully !
+
+[2026-10-17 21:57:40]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\4\its\Core\Src\main.c': source file has been changed.
+
+[2026-10-17 21:57:41]	[done]
+	build successfully !
+
+[2026-10-17 21:58:50]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\4\its\Core\Src\main.c': source file has been changed.
+
+[2026-10-17 21:58:51]	[done]
+	build successfully !
+
+[2026-10-17 21:59:06]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\4\its\Core\Src\main.c': source file has been changed.
+
+[2026-10-17 21:59:07]	[done]
+	build successfully !
+
+[2026-10-17 22:00:32]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\4\its\Core\Src\main.c': source file has been changed.
+
+[2026-10-17 22:00:33]	[done]
+	build successfully !
+
+[2026-10-18 21:11:51]	[info] incremental build: 27 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\dma.c': object (.o) file not exist
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\gpio.c': source file has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\main.c': source file has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\stm32f1xx_hal_msp.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\stm32f1xx_it.c': source file has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\syscalls.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\sysmem.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\system_stm32f1xx.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\tim.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\usart.c': object (.o) file not exist
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\User\Delay_us.c': object (.o) file not exist
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\User\Stepper_Servo.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c': object (.o) file not exist
+'d:\embedded2\stm32project\第六次培训串口通信\its\startup_stm32f103xb.s': compiler options has been changed.
+
+[2026-10-18 21:11:52]	compilation failed at : "d:\embedded2\stm32project\第六次培训串口通信\its\Core\User\Stepper_Servo.c", exit code: 1
+command: 
+  "D:\Program Files (x86)\Arm_GNU_Toolchain_arm-none-eabi\14.3 rel1\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -ICore/User -ICore/Src -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F1xx/Include -IDrivers/STM32F1xx_HAL_Driver/Src -IDrivers/STM32F1xx_HAL_Driver/Inc -IDrivers/STM32F1xx_HAL_Driver/Inc/Legacy -D"USE_HAL_DRIVER" -D"STM32F103xB" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Core/User/Stepper_Servo.o -MMD ./Core/User/Stepper_Servo.c
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:103:24: error: 'huart' undeclared (first use in this function); did you mean 'huart1'?
+  103 |     HAL_UART_Transmit(&huart, (uint8_t *)"start t0 receive\n", strlen("start to receive\r\n"), HAL_MAX_DELAY);
+      |                        ^~~~~
+      |                        huart1
+./Core/Src/main.c:103:24: note: each undeclared identifier is reported only once for each function it appears in
+./Core/Src/main.c:103:64: error: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  103 |     HAL_UART_Transmit(&huart, (uint8_t *)"start t0 receive\n", strlen("start to receive\r\n"), HAL_MAX_DELAY);
+      |                                                                ^~~~~~
+./Core/Src/main.c:29:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   28 | #include <stdio.h>
+  +++ |+#include <string.h>
+   29 | /* USER CODE END Includes */
+./Core/Src/main.c:103:64: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  103 |     HAL_UART_Transmit(&huart, (uint8_t *)"start t0 receive\n", strlen("start to receive\r\n"), HAL_MAX_DELAY);
+      |                                                                ^~~~~~
+./Core/Src/main.c:103:64: note: include '<string.h>' or provide a declaration of 'strlen'
+./Core/Src/main.c:104:31: error: 'rxbuffer' undeclared (first use in this function); did you mean 'rx_buffer'?
+  104 |     HAL_UART_Receive(&huart1, rxbuffer, 1, HAL_MAX_DELAY);
+      |                               ^~~~~~~~
+      |                               rx_buffer
+./Core/Src/main.c:96:11: warning: unused variable 'rx_buffer' [-Wunused-variable]
+   96 |   uint8_t rx_buffer[10] = {0};
+      |           ^~~~~~~~~
+./Core/Src/usart.c: In function '__io_putchar':
+./Core/Src/usart.c:169:3: error: implicit declaration of function 'HAL_UART_transmit'; did you mean 'HAL_UART_Transmit'? [-Wimplicit-function-declaration]
+  169 |   HAL_UART_transmit(&huart1, (uint8_t *) &ch, 1, 0xFFFF);
+      |   ^~~~~~~~~~~~~~~~~
+      |   HAL_UART_Transmit
+./Core/User/Stepper_Servo.c: In function 'Stepper_Servo':
+./Core/User/Stepper_Servo.c:8:45: error: 'DIR_GPIO_Port' undeclared (first use in this function); did you mean 'IS_GPIO_PIN'?
+    8 |   if(dir_state == 0)      HAL_GPIO_WritePin(DIR_GPIO_Port, DIR_Pin, GPIO_PIN_RESET);
+      |                                             ^~~~~~~~~~~~~
+      |                                             IS_GPIO_PIN
+./Core/User/Stepper_Servo.c:8:45: note: each undeclared identifier is reported only once for each function it appears in
+./Core/User/Stepper_Servo.c:8:60: error: 'DIR_Pin' undeclared (first use in this function)
+    8 |   if(dir_state == 0)      HAL_GPIO_WritePin(DIR_GPIO_Port, DIR_Pin, GPIO_PIN_RESET);
+      |                                                            ^~~~~~~
+./Core/User/Stepper_Servo.c:21:23: error: 'PUL_GPIO_Port' undeclared (first use in this function)
+   21 |     HAL_GPIO_WritePin(PUL_GPIO_Port, PUL_Pin, GPIO_PIN_SET);
+      |                       ^~~~~~~~~~~~~
+./Core/User/Stepper_Servo.c:21:38: error: 'PUL_Pin' undeclared (first use in this function)
+   21 |     HAL_GPIO_WritePin(PUL_GPIO_Port, PUL_Pin, GPIO_PIN_SET);
+      |                                      ^~~~~~~
+
+[2026-10-18 21:12:12]	[info] incremental build: 18 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\main.c': source file has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\usart.c': object (.o) file not exist
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\User\Stepper_Servo.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c': object (.o) file not exist
+'d:\embedded2\stm32project\第六次培训串口通信\its\startup_stm32f103xb.s': compiler options has been changed.
+
+[2026-10-18 21:12:12]	compilation failed at : "d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\usart.c", exit code: 1
+command: 
+  "D:\Program Files (x86)\Arm_GNU_Toolchain_arm-none-eabi\14.3 rel1\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -ICore/User -ICore/Src -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F1xx/Include -IDrivers/STM32F1xx_HAL_Driver/Src -IDrivers/STM32F1xx_HAL_Driver/Inc -IDrivers/STM32F1xx_HAL_Driver/Inc/Legacy -D"USE_HAL_DRIVER" -D"STM32F103xB" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Core/Src/usart.o -MMD ./Core/Src/usart.c
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/User/Stepper_Servo.c: In function 'Stepper_Servo':
+./Core/User/Stepper_Servo.c:8:45: error: 'DIR_GPIO_Port' undeclared (first use in this function); did you mean 'IS_GPIO_PIN'?
+    8 |   if(dir_state == 0)      HAL_GPIO_WritePin(DIR_GPIO_Port, DIR_Pin, GPIO_PIN_RESET);
+      |                                             ^~~~~~~~~~~~~
+      |                                             IS_GPIO_PIN
+./Core/User/Stepper_Servo.c:8:45: note: each undeclared identifier is reported only once for each function it appears in
+./Core/User/Stepper_Servo.c:8:60: error: 'DIR_Pin' undeclared (first use in this function)
+    8 |   if(dir_state == 0)      HAL_GPIO_WritePin(DIR_GPIO_Port, DIR_Pin, GPIO_PIN_RESET);
+      |                                                            ^~~~~~~
+./Core/User/Stepper_Servo.c:21:23: error: 'PUL_GPIO_Port' undeclared (first use in this function)
+   21 |     HAL_GPIO_WritePin(PUL_GPIO_Port, PUL_Pin, GPIO_PIN_SET);
+      |                       ^~~~~~~~~~~~~
+./Core/User/Stepper_Servo.c:21:38: error: 'PUL_Pin' undeclared (first use in this function)
+   21 |     HAL_GPIO_WritePin(PUL_GPIO_Port, PUL_Pin, GPIO_PIN_SET);
+      |                                      ^~~~~~~
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:103:65: error: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  103 |     HAL_UART_Transmit(&huart1, (uint8_t *)"start t0 receive\n", strlen("start to receive\r\n"), HAL_MAX_DELAY);
+      |                                                                 ^~~~~~
+./Core/Src/main.c:29:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   28 | #include <stdio.h>
+  +++ |+#include <string.h>
+   29 | /* USER CODE END Includes */
+./Core/Src/main.c:103:65: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  103 |     HAL_UART_Transmit(&huart1, (uint8_t *)"start t0 receive\n", strlen("start to receive\r\n"), HAL_MAX_DELAY);
+      |                                                                 ^~~~~~
+./Core/Src/main.c:103:65: note: include '<string.h>' or provide a declaration of 'strlen'
+./Core/Src/usart.c: In function '__io_putchar':
+./Core/Src/usart.c:169:3: error: implicit declaration of function 'HAL_UART_transmit'; did you mean 'HAL_UART_Transmit'? [-Wimplicit-function-declaration]
+  169 |   HAL_UART_transmit(&huart1, (uint8_t *) &ch, 1, 0xFFFF);
+      |   ^~~~~~~~~~~~~~~~~
+      |   HAL_UART_Transmit
+
+[2026-10-18 21:12:47]	[info] incremental build: 15 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\main.c': source file has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\usart.c': object (.o) file not exist
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\User\Stepper_Servo.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c': object (.o) file not exist
+'d:\embedded2\stm32project\第六次培训串口通信\its\startup_stm32f103xb.s': compiler options has been changed.
+
+[2026-10-18 21:12:48]	compilation failed at : "d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\main.c", exit code: 1
+command: 
+  "D:\Program Files (x86)\Arm_GNU_Toolchain_arm-none-eabi\14.3 rel1\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -ICore/User -ICore/Src -ICore/Inc -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F1xx/Include -IDrivers/STM32F1xx_HAL_Driver/Src -IDrivers/STM32F1xx_HAL_Driver/Inc -IDrivers/STM32F1xx_HAL_Driver/Inc/Legacy -D"USE_HAL_DRIVER" -D"STM32F103xB" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Core/Src/main.o -MMD ./Core/Src/main.c
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/usart.c: In function '__io_putchar':
+./Core/Src/usart.c:169:3: error: implicit declaration of function 'HAL_UART_transmit'; did you mean 'HAL_UART_Transmit'? [-Wimplicit-function-declaration]
+  169 |   HAL_UART_transmit(&huart1, (uint8_t *) &ch, 1, 0xFFFF);
+      |   ^~~~~~~~~~~~~~~~~
+      |   HAL_UART_Transmit
+./Core/User/Stepper_Servo.c: In function 'Stepper_Servo':
+./Core/User/Stepper_Servo.c:8:45: error: 'DIR_GPIO_Port' undeclared (first use in this function); did you mean 'IS_GPIO_PIN'?
+    8 |   if(dir_state == 0)      HAL_GPIO_WritePin(DIR_GPIO_Port, DIR_Pin, GPIO_PIN_RESET);
+      |                                             ^~~~~~~~~~~~~
+      |                                             IS_GPIO_PIN
+./Core/User/Stepper_Servo.c:8:45: note: each undeclared identifier is reported only once for each function it appears in
+./Core/User/Stepper_Servo.c:8:60: error: 'DIR_Pin' undeclared (first use in this function)
+    8 |   if(dir_state == 0)      HAL_GPIO_WritePin(DIR_GPIO_Port, DIR_Pin, GPIO_PIN_RESET);
+      |                                                            ^~~~~~~
+./Core/User/Stepper_Servo.c:21:23: error: 'PUL_GPIO_Port' undeclared (first use in this function)
+   21 |     HAL_GPIO_WritePin(PUL_GPIO_Port, PUL_Pin, GPIO_PIN_SET);
+      |                       ^~~~~~~~~~~~~
+./Core/User/Stepper_Servo.c:21:38: error: 'PUL_Pin' undeclared (first use in this function)
+   21 |     HAL_GPIO_WritePin(PUL_GPIO_Port, PUL_Pin, GPIO_PIN_SET);
+      |                                      ^~~~~~~
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:103:65: error: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  103 |     HAL_UART_Transmit(&huart1, (uint8_t *)"start to receive\n", strlen("start to receive\r\n"), HAL_MAX_DELAY);
+      |                                                                 ^~~~~~
+./Core/Src/main.c:29:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   28 | #include <stdio.h>
+  +++ |+#include <string.h>
+   29 | /* USER CODE END Includes */
+./Core/Src/main.c:103:65: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  103 |     HAL_UART_Transmit(&huart1, (uint8_t *)"start to receive\n", strlen("start to receive\r\n"), HAL_MAX_DELAY);
+      |                                                                 ^~~~~~
+./Core/Src/main.c:103:65: note: include '<string.h>' or provide a declaration of 'strlen'
+
+[2026-10-18 21:13:36]	[info] incremental build: 26 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\dma.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\gpio.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\main.c': source file has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\stm32f1xx_hal_msp.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\stm32f1xx_it.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\syscalls.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\sysmem.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\system_stm32f1xx.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\tim.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\usart.c': object (.o) file not exist
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\User\Delay_us.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c': object (.o) file not exist
+'d:\embedded2\stm32project\第六次培训串口通信\its\startup_stm32f103xb.s': compiler options has been changed.
+
+[2026-10-18 21:13:37]	compilation failed at : "d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\usart.c", exit code: 1
+command: 
+  "D:\Program Files (x86)\Arm_GNU_Toolchain_arm-none-eabi\14.3 rel1\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -ICore/Src -ICore/Inc -ICore/User -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F1xx/Include -IDrivers/STM32F1xx_HAL_Driver/Src -IDrivers/STM32F1xx_HAL_Driver/Inc -IDrivers/STM32F1xx_HAL_Driver/Inc/Legacy -D"USE_HAL_DRIVER" -D"STM32F103xB" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Core/Src/usart.o -MMD ./Core/Src/usart.c
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:103:65: error: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  103 |     HAL_UART_Transmit(&huart1, (uint8_t *)"start to receive\n", strlen("start to receive\r\n"), HAL_MAX_DELAY);
+      |                                                                 ^~~~~~
+./Core/Src/main.c:29:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   28 | #include <stdio.h>
+  +++ |+#include <string.h>
+   29 | /* USER CODE END Includes */
+./Core/Src/main.c:103:65: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  103 |     HAL_UART_Transmit(&huart1, (uint8_t *)"start to receive\n", strlen("start to receive\r\n"), HAL_MAX_DELAY);
+      |                                                                 ^~~~~~
+./Core/Src/main.c:103:65: note: include '<string.h>' or provide a declaration of 'strlen'
+./Core/Src/usart.c: In function '__io_putchar':
+./Core/Src/usart.c:169:3: error: implicit declaration of function 'HAL_UART_transmit'; did you mean 'HAL_UART_Transmit'? [-Wimplicit-function-declaration]
+  169 |   HAL_UART_transmit(&huart1, (uint8_t *) &ch, 1, 0xFFFF);
+      |   ^~~~~~~~~~~~~~~~~
+      |   HAL_UART_Transmit
+
+[2026-10-18 21:13:52]	[info] incremental build: 16 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\main.c': source file has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\usart.c': object (.o) file not exist
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c': object (.o) file not exist
+'d:\embedded2\stm32project\第六次培训串口通信\its\startup_stm32f103xb.s': compiler options has been changed.
+
+[2026-10-18 21:13:53]	compilation failed at : "d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\main.c", exit code: 1
+command: 
+  "D:\Program Files (x86)\Arm_GNU_Toolchain_arm-none-eabi\14.3 rel1\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -ICore/Src -ICore/Inc -ICore/User -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F1xx/Include -IDrivers/STM32F1xx_HAL_Driver/Src -IDrivers/STM32F1xx_HAL_Driver/Inc -IDrivers/STM32F1xx_HAL_Driver/Inc/Legacy -D"USE_HAL_DRIVER" -D"STM32F103xB" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Core/Src/main.o -MMD ./Core/Src/main.c
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:103:65: error: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  103 |     HAL_UART_Transmit(&huart1, (uint8_t *)"start to receive\n", strlen("start to receive\r\n"), HAL_MAX_DELAY);
+      |                                                                 ^~~~~~
+./Core/Src/main.c:29:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   28 | #include <stdio.h>
+  +++ |+#include <string.h>
+   29 | /* USER CODE END Includes */
+./Core/Src/main.c:103:65: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  103 |     HAL_UART_Transmit(&huart1, (uint8_t *)"start to receive\n", strlen("start to receive\r\n"), HAL_MAX_DELAY);
+      |                                                                 ^~~~~~
+./Core/Src/main.c:103:65: note: include '<string.h>' or provide a declaration of 'strlen'
+
+[2026-10-18 21:14:36]	[info] incremental build: 11 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\Src\main.c': source file has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c': compiler options has been changed.
+'d:\embedded2\stm32project\第六次培训串口通信\its\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c': object (.o) file not exist
+'d:\embedded2\stm32project\第六次培训串口通信\its\startup_stm32f103xb.s': compiler options has been changed.
+
+[2026-10-18 21:14:38]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+D:/Program Files (x86)/Arm_GNU_Toolchain_arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: cannot open linker script file d:/embedded2/stm32project/????????????????/its/STM32F103xx_FLASH.ld: Invalid argument
+collect2.exe: error: ld returned 1 exit status
+
+
+[2026-10-18 21:14:49]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+D:/Program Files (x86)/Arm_GNU_Toolchain_arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: cannot open linker script file d:/embedded2/stm32project/????????????????/its/STM32F103xx_FLASH.ld: Invalid argument
+collect2.exe: error: ld returned 1 exit status
+
+
+[2026-10-18 21:15:36]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\User\Stepper_Servo.c': compiler options has been changed.
+
+[2026-10-18 21:15:36]	compilation failed at : "d:\embedded2\stm32project\第六次培训串口通信\its\Core\User\Stepper_Servo.c", exit code: 1
+command: 
+  "D:\Program Files (x86)\Arm_GNU_Toolchain_arm-none-eabi\14.3 rel1\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -ICore/Src -ICore/Inc -ICore/User -IDrivers/CMSIS/Include -IDrivers/CMSIS/Device/ST/STM32F1xx/Include -IDrivers/STM32F1xx_HAL_Driver/Src -IDrivers/STM32F1xx_HAL_Driver/Inc -IDrivers/STM32F1xx_HAL_Driver/Inc/Legacy -D"USE_HAL_DRIVER" -D"STM32F103xB" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Core/User/Stepper_Servo.o -MMD ./Core/User/Stepper_Servo.c
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/User/Stepper_Servo.c: In function 'Stepper_Servo':
+./Core/User/Stepper_Servo.c:8:45: error: 'DIR_GPIO_Port' undeclared (first use in this function); did you mean 'IS_GPIO_PIN'?
+    8 |   if(dir_state == 0)      HAL_GPIO_WritePin(DIR_GPIO_Port, DIR_Pin, GPIO_PIN_RESET);
+      |                                             ^~~~~~~~~~~~~
+      |                                             IS_GPIO_PIN
+./Core/User/Stepper_Servo.c:8:45: note: each undeclared identifier is reported only once for each function it appears in
+./Core/User/Stepper_Servo.c:8:60: error: 'DIR_Pin' undeclared (first use in this function)
+    8 |   if(dir_state == 0)      HAL_GPIO_WritePin(DIR_GPIO_Port, DIR_Pin, GPIO_PIN_RESET);
+      |                                                            ^~~~~~~
+./Core/User/Stepper_Servo.c:21:23: error: 'PUL_GPIO_Port' undeclared (first use in this function)
+   21 |     HAL_GPIO_WritePin(PUL_GPIO_Port, PUL_Pin, GPIO_PIN_SET);
+      |                       ^~~~~~~~~~~~~
+./Core/User/Stepper_Servo.c:21:38: error: 'PUL_Pin' undeclared (first use in this function)
+   21 |     HAL_GPIO_WritePin(PUL_GPIO_Port, PUL_Pin, GPIO_PIN_SET);
+      |                                      ^~~~~~~
+
+[2026-10-18 21:16:09]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'d:\embedded2\stm32project\第六次培训串口通信\its\Core\User\Stepper_Servo.c': source file has been changed.
+
+[2026-10-18 21:16:09]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+D:/Program Files (x86)/Arm_GNU_Toolchain_arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: cannot open linker script file d:/embedded2/stm32project/????????????????/its/STM32F103xx_FLASH.ld: Invalid argument
+collect2.exe: error: ld returned 1 exit status
+
+

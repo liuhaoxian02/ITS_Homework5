@@ -1,0 +1,29 @@
+-mcpu=cortex-m3 -mthumb -T d:/embedded2/stm32project/第六次培训串口通信/its/STM32F103xx_FLASH.ld -Wl,--gc-sections -Wl,--print-memory-usage --specs=nano.specs --specs=nosys.specs -Wl,-u,_printf_float
+-Wl,-Map=./build/Debug/its.map
+-o ./build/Debug/its.elf ./build/Debug/.obj/Core/Src/dma.o
+./build/Debug/.obj/Core/Src/gpio.o
+./build/Debug/.obj/Core/Src/main.o
+./build/Debug/.obj/Core/Src/stm32f1xx_hal_msp.o
+./build/Debug/.obj/Core/Src/stm32f1xx_it.o
+./build/Debug/.obj/Core/Src/syscalls.o
+./build/Debug/.obj/Core/Src/sysmem.o
+./build/Debug/.obj/Core/Src/system_stm32f1xx.o
+./build/Debug/.obj/Core/Src/tim.o
+./build/Debug/.obj/Core/Src/usart.o
+./build/Debug/.obj/Core/User/Delay_us.o
+./build/Debug/.obj/Core/User/Stepper_Servo.o
+./build/Debug/.obj/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+./build/Debug/.obj/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+./build/Debug/.obj/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o
+./build/Debug/.obj/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o
+./build/Debug/.obj/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o
+./build/Debug/.obj/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o
+./build/Debug/.obj/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+./build/Debug/.obj/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o
+./build/Debug/.obj/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o
+./build/Debug/.obj/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+./build/Debug/.obj/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o
+./build/Debug/.obj/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o
+./build/Debug/.obj/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
+./build/Debug/.obj/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o
+./build/Debug/.obj/startup_stm32f103xb.o -lm

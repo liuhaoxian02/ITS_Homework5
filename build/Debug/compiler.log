@@ -1,0 +1,25 @@
+>>> info
+
+Compiler Full Name: arm-none-eabi-gcc.exe (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 14.3.1 20250623
+Compiler Version: 14.3.1
+Builder Mode: Incremental
+The amount of C files: 1
+The amount of C++ files: 0
+The amount of Asm files: 0
+
+>>> prebuild
+
+
+
+>>> cc
+
+
+
+>>> ld
+
+D:/Program Files (x86)/Arm_GNU_Toolchain_arm-none-eabi/14.3 rel1/bin/../lib/gcc/arm-none-eabi/14.3.1/../../../../arm-none-eabi/bin/ld.exe: cannot open linker script file d:/embedded2/stm32project/????????????????/its/STM32F103xx_FLASH.ld: Invalid argument
+collect2.exe: error: ld returned 1 exit status
+
+
+>>> postbuild
+

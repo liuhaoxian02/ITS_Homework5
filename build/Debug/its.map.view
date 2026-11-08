@@ -1,0 +1,6 @@
+tool: GCC
+fileName: 'its.map'
+elfName: 'its.elf'
+compilerName: 'Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)'
+compilerFullName: 'arm-none-eabi-gcc.exe (Arm GNU Toolchain 14.3.Rel1 (Build arm-14.174)) 14.3.1 20250623'
+compilerPath: 'D:\Program Files (x86)\Arm_GNU_Toolchain_arm-none-eabi\14.3 rel1\bin\arm-none-eabi-gcc.exe'
